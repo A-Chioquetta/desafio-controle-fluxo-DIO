@@ -1,18 +1,23 @@
-## Getting Started
+# Desafio Controle de Fluxo – Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido para o curso **Formação Java Developer** da **DIO (Digital Innovation One)**.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O programa recebe dois números inteiros via terminal e realiza uma contagem usando um laço `for`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- A quantidade de repetições é definida pela diferença entre o segundo e o primeiro número.  
+- A cada repetição, o sistema imprime no console:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Imprimindo o número X
+#### Regra
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Se o primeiro número for maior que o segundo, o programa lança uma exceção customizada com a mensagem:
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Estrutura
+
+- `Contador.java` → classe principal com a lógica do programa  
+- `ParametrosInvalidosException.java` → exceção customizada
+
+
