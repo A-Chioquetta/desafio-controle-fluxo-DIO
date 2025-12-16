@@ -15,7 +15,7 @@ O programa recebe dois números inteiros via terminal e realiza uma contagem usa
 - Se o primeiro número for maior que o segundo, o programa lança uma exceção customizada com a mensagem:
 
 
-### Estrutura
+#### Estrutura
 
 - `Contador.java` → classe principal com a lógica do programa  
 - `ParametrosInvalidosException.java` → exceção customizada
